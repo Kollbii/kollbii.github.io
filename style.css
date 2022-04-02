@@ -1,0 +1,35 @@
+.shell {
+    margin: 20px;    
+}
+
+.buttons {
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(33, 33, 33);
+}
+
+/* .shell {
+    height: 200px;
+} */
+
+.shell input {
+    text-decoration: none;
+    width: 100%;
+    border-top: none;
+    border-bottom: solid 2px rgb(33, 33, 33);
+    border-left: solid 2px rgb(33, 33, 33);
+    border-right: solid 2px rgb(33, 33, 33);
+}
+.shell .content {
+    border-left: solid 2px rgb(33, 33, 33);
+    border-right: solid 2px rgb(33, 33, 33);
+}
+
+.shell input:focus-visible {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
